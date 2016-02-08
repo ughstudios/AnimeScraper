@@ -1,17 +1,28 @@
 # AnimeScraper
 Scrapes animes from http://anime-joy.tv and displays them.
 
-Notice:
+# H1 Notice:
 I made this just to see if I could just to educate myself in NodeJS and Express, none of the actual shows are hosted on the site itself, it is scraped using Request and parsed using cheerio. If you have any ideas of how to fix some of the problems I would be so happy to be able to see how you did it! Also, because this is a parsed website, some of the stuff may not work in the future due to updates from the scraped site or if the site itself goes down.
 
-Problems:
+# H1 Problems:
 When you first load a show it will say "Not found" until you refresh and then it scrapes the data (not sure how to pre-load the data).
 If you load one anime and then attempt to go back and load a new anime it will show the old anime data until you refresh, after you refresh it will reload the new scraped data.
 
 !!! Some of the NPM modules may not be included in package.json !!!
 
-Contributors:
+# H1 Contributors:
 Daniel Gleason
+
+Setup / Installation : 
+# H2 Clone the project:
+```
+git clone https://github.com/Bdoom/AnimeScraper.git
+```
+
+Install dependencies from project directory:
+```
+npm install
+```
 
 In action photos
 Index page
