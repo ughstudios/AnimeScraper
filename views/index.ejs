@@ -1,0 +1,19 @@
+<% include header.ejs %>
+  <body>
+    <h1>Welcome to <%= title %></h1>
+    <h2> Anime List</h2>
+    <ul>
+      <%  for (var i = 0; i < animeList.length; i++) { %>
+          <li>
+            <a href="animes/<%= animeList[i].replace('.', '').replace('//', '-').trim().replace(/ /g, '-'); %>">
+              <%= animeList[i] %>
+            </a>
+
+          </li>
+      <% } %>
+
+    </ul>
+
+  </body>
+
+<% include footer.ejs %>
