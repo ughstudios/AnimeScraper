@@ -8,6 +8,8 @@ Problems:
 When you first load a show it will say "Not found" until you refresh and then it scrapes the data (not sure how to pre-load the data).
 If you load one anime and then attempt to go back and load a new anime it will show the old anime data until you refresh, after you refresh it will reload the new scraped data.
 
+!!! Some of the NPM modules may not be included in package.json !!!
+
 Contributors:
 Daniel Gleason
 
