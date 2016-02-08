@@ -8,8 +8,10 @@ Contributors:
 Daniel Gleason
 
 In action photos
+Index page
 ![Image of index anime list](http://i.imgur.com/AMcQh8x.png)
-
+Viewing of a show
 ![Image of a viewing page](http://i.imgur.com/oQcqr5L.png)
+Episode list
 ![Episodes list plus a visual of the first epiosde](http://i.imgur.com/bKD5ejn.png)
 
